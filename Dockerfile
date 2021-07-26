@@ -11,4 +11,5 @@ WORKDIR /app/
 COPY . /app/
 RUN pip3 install -U -r requirements.txt
 RUN pip3 install py-tgcalls==0.5.4 -U
+RUN pip3 install aiohttp==3.7.4 -U
 CMD python3 -m DaisyXMusic
